@@ -1,15 +1,11 @@
 new Vue({
     el: '#app',
     data: {
-        title: 'Hello World!',
-        link: 'https://esumomedia.com'
+        counter: 0
     },
     methods: {
-        changeTitle: function(event) {
-            this.title = event.target.value;
-        },
-        sayHello: function() {
-            return this.title;
+        increase: function() {
+            this.counter++;
         }
     }
 })
