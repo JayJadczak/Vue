@@ -11,8 +11,8 @@
 
 <body>
     <div id="app">
-        <input type="text" v-on:input="ChangeTitle">
-        <p>{{ title }}</p>
+        <input type="text" v-on:input="changeTitle">
+        <p>{{ sayHello() }} - <a v-bind:href="link">Esumo</a></p>
     </div>
 
     <script src="assets/js/script.js"></script>
